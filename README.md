@@ -40,6 +40,35 @@
 
 # Архитектура проекта
 
+```text
+BERT_Comparsion/
+│
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   └── splits/
+│
+├── models/
+│   └── bert_imdb/
+│
+├── results/
+│   ├── explanations/
+│   ├── comparison/
+│   ├── figures/
+│   └── metrics/
+│
+├── download.py
+├── preprocess.py
+├── split.py
+├── train.py
+├── explain_shap.py
+├── explain_lime.py
+├── explain_ig.py
+├── compare_methods.py
+├── run_experiment.py
+├── config.py
+└── README.md
+```
 
 ---
 
