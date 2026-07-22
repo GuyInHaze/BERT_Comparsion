@@ -43,13 +43,13 @@ from transformers import (
 
     BertForSequenceClassification,
 
-    AdamW,
-
     AutoTokenizer,
 
     get_linear_schedule_with_warmup
 
 )
+
+from torch.optim import AdamW
 
 from config import *
 
